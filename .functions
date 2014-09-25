@@ -244,3 +244,8 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+# Run pip against the system environment
+syspip(){
+   PIP_REQUIRE_VIRTUALENV="" pip "$@"
+}
