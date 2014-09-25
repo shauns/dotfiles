@@ -13,6 +13,7 @@ cask install google-chrome 2> /dev/null
 # cask install imageoptim 2> /dev/null
 cask install hipchat 2> /dev/null
 cask install iterm2 2> /dev/null
+cask install java6 2> /dev/null
 cask install karabiner 2> /dev/null
 # cask install macvim 2> /dev/null
 cask install middleclick 2> /dev/null
