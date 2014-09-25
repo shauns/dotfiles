@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# ~/.pipsi -- pip install python binaries
+curl https://raw.githubusercontent.com/shauns/pipsi/master/get-pipsi.py | python
+
+pipsi install httpie

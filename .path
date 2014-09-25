@@ -1,2 +1,4 @@
 # Python (and some other packages want /usr/local/bin first)
 export PATH="/usr/local/bin:$PATH"
+# Put pipsi installations in the path too
+export PATH="~/.local/bin:$PATH"
