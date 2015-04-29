@@ -70,6 +70,9 @@ defaults write NSGlobalDomain KeyRepeat -int 0
 # Use light force click
 defaults write NSGlobalDomain com.apple.trackpad.forceClick -int 1
 
+# Use Fn keys as actual functions
+defaults write NSGlobalDomain com.apple.keyboard.fnState -int 1
+
 ###############################################################################
 # Screen                                                                      #
 ###############################################################################
