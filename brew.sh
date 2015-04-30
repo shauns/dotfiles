@@ -118,6 +118,7 @@ brew cask install sourcetree
 brew cask install spotify
 brew cask install sublime-text3
 brew cask install the-unarchiver
+brew cask install virtualbox
 brew cask install vlc
 
 # Remove outdated versions from the cellar.
