@@ -249,3 +249,7 @@ function tre() {
 syspip(){
    PIP_REQUIRE_VIRTUALENV="" pip "$@"
 }
+
+function b2d() {
+	$(/usr/local/bin/boot2docker shellinit)
+}
