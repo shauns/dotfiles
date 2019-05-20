@@ -33,3 +33,10 @@ export PIP_DOWNLOAD_CACHE=$HOME/.pip/cache
 export WORKON_HOME=~/.virtualenvs
 # disable the default virtualenv prompt change
 export VIRTUAL_ENV_DISABLE_PROMPT=1
+
+# Ansible configuration
+export ANSIBLE_HOSTS=~/ansible/hosts
+
+# PIP wheelhouse
+export PIP_FIND_LINKS="file://Users/shauns/.pip-wheelhouse"
+export PIP_WHEEL_DIR="/Users/shauns/.pip-wheelhouse"
